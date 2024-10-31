@@ -1,0 +1,2 @@
+This python script takes as input a compressed folder full of photos named with the format YYYYMMDD_HHMMSS (the output name format for the used camera) and sorts the photos into folders based on if there are pauses in between the times of each image, effectively sorting them by house. 
+It also fixes an issue where some photos are rotated incorrectly due to having the wrong EXIF metadata, and it converts all encountered file formats to JPG.
